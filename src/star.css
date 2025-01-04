@@ -1,0 +1,26 @@
+.outer-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.inner-container{
+    color: white;
+    margin-top: 30vh;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.inner-container span{
+    font-size: 70px;
+    margin: 20px;
+    cursor: pointer;
+}
+.inner-container div{
+    margin: 60px;
+}
+.Selected{
+    color: rgb(255, 0, 0);
+}
